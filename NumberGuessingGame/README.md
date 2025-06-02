@@ -25,5 +25,5 @@ A simple command-line Number Guessing Game written in Python. This mini app rand
   ```bash
   python --version
 
-#1. Run
-python number_guessing_game.py  
+## 🚀 Run
+- python number_guessing_game.py  
