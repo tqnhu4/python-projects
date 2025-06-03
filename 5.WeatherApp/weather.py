@@ -3,6 +3,8 @@ import requests
 API_KEY = "YOUR_API_KEY_HERE"  # Thay bằng API key của bạn
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
+#London,GB
+
 def get_weather(city_name):
     params = {
         "q": city_name,
