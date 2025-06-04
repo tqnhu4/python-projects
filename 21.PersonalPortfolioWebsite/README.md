@@ -28,23 +28,23 @@ A medium-level personal portfolio website built with Python and Flask. This proj
 
 ## Project Structure
 
-portfolio/
-│
-├── app/
-│ ├── init.py # Flask app factory and setup
-│ ├── routes.py # Route definitions
-│ ├── models.py # Database models (optional)
-│ ├── forms.py # WTForms form definitions
-│ ├── templates/ # HTML templates
-│ │ ├── base.html
-│ │ ├── index.html
-│ │ ├── projects.html
-│ │ └── contact.html
-│ └── static/ # Static files: CSS, JS, images
-│
-├── config.py # Configuration file
-├── run.py # Application entry point
-└── requirements.txt # Python dependencies
+- portfolio/
+- │
+- ├── app/
+- │ ├── init.py # Flask app factory and setup
+- │ ├── routes.py # Route definitions
+- │ ├── models.py # Database models (optional)
+- │ ├── forms.py # WTForms form definitions
+- │ ├── templates/ # HTML templates
+- │ │ ├── base.html
+- │ │ ├── index.html
+- │ │ ├── projects.html
+- │ │ └── contact.html
+- │ └── static/ # Static files: CSS, JS, images
+- │
+- ├── config.py # Configuration file
+- ├── run.py # Application entry point
+- └── requirements.txt # Python dependencies
 
 ## Create and activate a virtual environment
 ```bash
