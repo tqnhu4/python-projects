@@ -1,10 +1,10 @@
-# Personal Portfolio Website
+# 🔖 Personal Portfolio Website
 
 A medium-level personal portfolio website built with Python and Flask. This project showcases a simple but functional portfolio to present your skills, projects, and contact information.
 
 ---
 
-## Features
+## ✅ Features
 
 - Homepage with introduction and summary
 - Projects page to display your work
@@ -15,7 +15,7 @@ A medium-level personal portfolio website built with Python and Flask. This proj
 
 ---
 
-## Technologies Used
+## ✅ Technologies Used
 
 - Python 3.x
 - Flask
@@ -26,39 +26,40 @@ A medium-level personal portfolio website built with Python and Flask. This proj
 
 ---
 
-## Project Structure
+## ✅ Project Structure
+```text
+portfolio/
+ │
+ ├── app/
+ │ ├── init.py # Flask app factory and setup
+ │ ├── routes.py # Route definitions
+ │ ├── models.py # Database models (optional)
+ │ ├── forms.py # WTForms form definitions
+ │ ├── templates/ # HTML templates
+ │ │ ├── base.html
+ │ │ ├── index.html
+ │ │ ├── projects.html
+ │ │ └── contact.html
+ │ └── static/ # Static files: CSS, JS, images
+ │
+ ├── config.py # Configuration file
+ ├── run.py # Application entry point
+ └── requirements.txt # Python dependencies
+```
 
-- portfolio/
-- │
-- ├── app/
-- │ ├── init.py # Flask app factory and setup
-- │ ├── routes.py # Route definitions
-- │ ├── models.py # Database models (optional)
-- │ ├── forms.py # WTForms form definitions
-- │ ├── templates/ # HTML templates
-- │ │ ├── base.html
-- │ │ ├── index.html
-- │ │ ├── projects.html
-- │ │ └── contact.html
-- │ └── static/ # Static files: CSS, JS, images
-- │
-- ├── config.py # Configuration file
-- ├── run.py # Application entry point
-- └── requirements.txt # Python dependencies
-
-## Create and activate a virtual environment
+## ✅ Create and activate a virtual environment
 ```bash
 python -m venv venv
 source venv/bin/activate      # On Windows: venv\Scripts\activate
 ```
 
-## Install dependencies
+## ✅ Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Run the application
+## ✅ Run the application
 
 ```bash
 python run.py

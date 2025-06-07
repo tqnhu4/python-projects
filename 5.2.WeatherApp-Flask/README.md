@@ -56,7 +56,7 @@
 
 ## Cấu trúc thư mục
 
-weather_app/
-├── app.py
-└── templates/
-    └── index.html
+- weather_app/
+- ├── app.py
+- └── templates/
+-     └── index.html
